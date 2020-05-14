@@ -23,7 +23,7 @@ module.exports = async (req, res) => {
             title: data.title,
             description: data.body,
             id: data.url,
-            url: data.url,
+            url: data.html_url,
             date: new Date(Date.parse(data.created_at)),
         })
     });
