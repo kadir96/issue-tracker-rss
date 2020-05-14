@@ -28,5 +28,5 @@ module.exports = async (req, res) => {
         })
     });
 
-    res.send(feed.rss2())
+    res.writeHead(200, {'Content-Type': 'application/xml'}).end(feed.rss2());
 }
