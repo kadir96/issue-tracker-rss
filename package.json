@@ -6,9 +6,7 @@
   "author": "Abdulkadir Poyraz <kadirpoyraz96@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@koa/router": "^8.0.8",
     "axios": "^0.19.2",
-    "feed": "^4.1.0",
-    "koa": "^2.11.0"
+    "feed": "^4.1.0"
   }
 }
