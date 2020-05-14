@@ -22,7 +22,7 @@ module.exports = async (req, res) => {
         feed.addItem({
             title: data.title,
             description: data.body,
-            id: data.url,
+            id: data.html_url,
             link: data.html_url,
             date: new Date(Date.parse(data.created_at)),
         })
